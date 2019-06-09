@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./1.css">
+    <title>Login</title>
+    <script type="text/javascript">
+
+    function hienthi(){
+      var username = document.getElementById("1").value;
+      var password = document.getElementById("2").value;
+      alert(username +"    "+ password);
+    }
+
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>LOGIN</h1>
+    </header>
+    <div class="main">
+      <div class="login">
+        <span>Username:</span>
+        <input type="text" placeholder="nhập Username" name="username"  id="1">
+      </div>
+      <div class="login">
+        <span>Password:</span>
+        <input type="password" placeholder="nhập Password" name="password" id="2">
+      </div>
+      <div class="login">
+        <button type="button" onclick="hienthi()" name="button">Login</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>@Phụng, 2019</p>
+    </footer>
+  </body>
+</html>
